@@ -1,0 +1,61 @@
+form {
+    background-color: rgb(27, 44, 44);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+}
+
+#form_section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: rgb(27, 44, 44);
+    /* width: 60%; */
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: rgb(27, 44, 44);
+}
+.checks {
+    width: 50%;
+}
+
+#checkboxes {
+    display: flex;
+}
+
+
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: rgb(27, 44, 44);
+    width: 30em;
+    width: 50vw;
+    height: 2em;
+}
+
+input[type="checkbox"] {
+    background-color: rgb(27, 44, 44);
+}
+
+#form_button {
+    background-color: rgb(27, 44, 44);
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 1em 3em;
+}

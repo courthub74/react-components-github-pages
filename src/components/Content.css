@@ -1,0 +1,17 @@
+section {
+    background-color: rgb(7, 7, 74);
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3em;
+}
+
+article {
+    width: 60%;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}

@@ -1,0 +1,31 @@
+#hooks_section {
+    background-color: rgb(38, 25, 54);
+    padding: 3em;
+}
+
+#hooks_buttons {
+    display: flex;
+    gap: 1em;
+}
+button {
+    background-color: rgb(38, 25, 54);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 1em 3em;
+}
+
+@media (max-width: 800px) {
+    #hooks_buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+    button {
+        background-color: rgb(38, 25, 54);
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
+        padding: 1em 3em;
+    }
+}
